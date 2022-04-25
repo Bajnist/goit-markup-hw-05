@@ -62,6 +62,7 @@ border-bottom: 1px solid #ECECEC;
 }
 .header2 {
   background-color: var(--first-btn-color);
+  border-bottom: 1px solid #ECECEC;
   
 
 
@@ -70,6 +71,7 @@ border-bottom: 1px solid #ECECEC;
 
 .header-soc-icon{
   margin-right: 10px;
+  transition: 250ms var(--timing-funtion);
   
 }
 
@@ -108,12 +110,15 @@ border-bottom: 1px solid #ECECEC;
 }
 .header-soc-link1:hover{
   fill: var(--accent-color);
+  transition: 250ms var(--timing-funtion);
 }
 .header-adres:hover svg {
   fill: var(--accent-color);
+  transition: 250ms var(--timing-funtion);
 }
 .header-adres:focus svg {
   fill: var(--accent-color);
+  transition: 250ms var(--timing-funtion);
 }
 .container-flax,
 .header-nav,
@@ -128,9 +133,11 @@ border-bottom: 1px solid #ECECEC;
 }
 .header-tel:hover svg{
   fill: var(--accent-color);
+  transition: 250ms var(--timing-funtion);
 }
 .header-tel:focus svg {
   fill: var(--accent-color);
+  transition: 250ms var(--timing-funtion);
 }
 .header-item:first-child{
   margin-left: 0;
@@ -145,13 +152,14 @@ border-bottom: 1px solid #ECECEC;
     
     content: '';
     position: absolute;
-    bottom: 0;
+    bottom: -1px;
     left: 0;
     width: 100%;
     height: 4px;
     background: #2196F3;
     border-radius: 2px;
     display: block;
+   
     
   }
 
@@ -226,19 +234,23 @@ border-bottom: 1px solid #ECECEC;
   letter-spacing: 0.02em;
   color: var(--header-color);
   display: block;
+  transition: transform 250ms var(--timing-funtion);
   
 }
+
 .header-link{
   padding-top: 32px;
   padding-bottom: 32px;
   display: block;
   position: relative;
+  transition: 250ms var(--timing-funtion)
 }
 .header-link:hover,
 .header-link:focus,
 .header-link.active
 {
   color: var(--accent-color);
+  transition: 250ms var(--timing-funtion);
 }
 .header-tel, .header-adres {
   font-weight: 500;
@@ -249,16 +261,22 @@ border-bottom: 1px solid #ECECEC;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 250ms var(--timing-funtion);
 }
 
 .header-adres:hover,
 .header-adres:focus{
   color: var(--accent-color);
+  transition: 250ms var(--timing-funtion);
+  
+  
 }
 
 .header-tel:hover,
 .header-tel:focus {
   color: var(--accent-color);
+  transition: 250ms var(--timing-funtion);
+
 }
                                                             /* HERO */
 .hero {
@@ -518,12 +536,15 @@ padding: 94px 0px;
 .command-soc-link:hover,
 .command-soc-link:focus {
   background-color: var(--accent-color);
+  transition: 250ms var(--timing-funtion);
 }
 .command-soc-link:hover .command-soc-icon{
   fill: #ffffff;
+  transition: 250ms var(--timing-funtion);
 }
 .command-soc-link:focus .command-soc-icon {
   fill: #ffffff;
+  transition: 250ms var(--timing-funtion);
 }
 
 .command-item-soc:last-child{
@@ -536,10 +557,12 @@ padding: 94px 0px;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 250ms var(--timing-funtion);
 }
 
 .command-soc-icon{
   fill: #AFB1B8;
+  transition: 250ms var(--timing-funtion);
 }
 
 
@@ -656,6 +679,7 @@ padding-bottom: 60px;
   line-height:1.71;
   letter-spacing: 0.03em;
   color: var(--first-btn-color);
+  transition: 250ms var(--timing-funtion);
   
 
 }
@@ -665,19 +689,23 @@ font-size: 14px;
 line-height:1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
+transition: 250ms var(--timing-funtion);
 
 }
 .footer-link:hover,
 .footer-link:focus{
   color: var(--accent-color);
+  transition: 250ms var(--timing-funtion);
 }
 .footer-tel:hover,
 .footer-tel:focus{
   color: var(--accent-color);
+  transition: 250ms var(--timing-funtion);
 }
 .footer-adres:hover,
 .footer-adres:focus{
   color: var(--accent-color);
+  transition: 250ms var(--timing-funtion);
 }
 .footer-text{
   font-weight: 700;
@@ -696,15 +724,19 @@ color: rgba(255, 255, 255, 0.6);
   align-items: center;
   justify-content: center;
   background: rgba(255, 255, 255, 0.1);
+  transition: 250ms var(--timing-funtion);
 }
 .footer-soc-link{
   fill: var(--first-btn-color);
+  transition: 250ms var(--timing-funtion);
 }
 .footer-soc-link:hover{
-  background-color:var(--accent-color)
+  background-color:var(--accent-color);
+  transition: 250ms var(--timing-funtion);
 }
 .footer-soc-link:focus {
-  background-color: var(--accent-color)
+  background-color: var(--accent-color);
+  transition: 250ms var(--timing-funtion);
 }
 
 .footer-item-soc{
@@ -778,10 +810,12 @@ color: rgba(255, 255, 255, 0.6);
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
+  transition: 250ms var(--timing-funtion);
 }
 .customer-soc-icon{
 
   fill: #AFB1B8;
+  transition: 250ms var(--timing-funtion);
 }
 
 
@@ -790,17 +824,24 @@ color: rgba(255, 255, 255, 0.6);
  
 .customer-soc-link:hover svg{
   fill: var(--accent-color);
+  transition: 250ms var(--timing-funtion);
+ 
 }
 .customer-soc-link:focus svg{
  fill: var(--accent-color);
+transition: 250ms var(--timing-funtion);
+
   
 }
 
 .customer-soc-link:focus {
   border-color:var(--accent-color);
+  transition: 250ms var(--timing-funtion);
+  
 }
 .customer-soc-link:hover {
   border-color: var(--accent-color);
+  transition: 250ms var(--timing-funtion);
 }
 
 
@@ -811,7 +852,7 @@ color: rgba(255, 255, 255, 0.6);
 
                                                             /* PORTFOLIO.HTML */
                                                             /* HERO 1 */
-.hero1{
+.portfolio{
   background-color: var(--first-btn-color);
   padding: 94px 0px;
 }
@@ -856,6 +897,7 @@ color: rgba(255, 255, 255, 0.6);
   border: 0;
   cursor: pointer;
   padding: 6px 22px;
+  transition: 250ms var(--timing-funtion);
 }
 
 .hero1-btn:hover,
@@ -871,6 +913,7 @@ color: rgba(255, 255, 255, 0.6);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
   0px 1px 2px rgba(0, 0, 0, 0.08),
   0px 2px 2px rgba(0, 0, 0, 0.12);
+  transition: 250ms var(--timing-funtion);
 }
 
 
@@ -933,7 +976,7 @@ color: rgba(255, 255, 255, 0.6);
   width: 100%;
   height: 100%;
   background: rgba(33, 150, 243, 0.9);
-  transform: translateY(100%);
+  transform: translateY(101%);
   transition: transform 250ms var(--timing-funtion);
   
   
@@ -954,6 +997,7 @@ color: rgba(255, 255, 255, 0.6);
 .portfolio-link{
     display: block;
     text-decoration: none;
+    transition: 250ms var(--timing-funtion);
     
 
 
@@ -963,6 +1007,7 @@ color: rgba(255, 255, 255, 0.6);
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
 0px 4px 4px rgba(0, 0, 0, 0.06),
 1px 4px 6px rgba(0, 0, 0, 0.16);
+transition: 250ms var(--timing-funtion);
 
 
 }
