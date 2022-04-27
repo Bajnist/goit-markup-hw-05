@@ -73,9 +73,23 @@ border-bottom: 1px solid #ECECEC;
   margin-right: 10px;
   transition-timing-function: var(--timing-funtion);
   transition-duration: 250ms;
-  transition-property: color var(--accent-color);
+  transition-property: fill ;
   
 }
+.header-soc-icon:hover{
+ fill: var(--accent-color);
+transition-timing-function: var(--timing-funtion);
+transition-duration: 250ms;
+transition-property: fill;
+}
+.header-soc-icon:focus {
+  fill: var(--accent-color);
+  transition-timing-function: var(--timing-funtion);
+  transition-duration: 250ms;
+  transition-property: fill;
+}
+
+
 
 .header-adres{
   display: flex;
@@ -86,6 +100,7 @@ border-bottom: 1px solid #ECECEC;
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 
@@ -114,19 +129,19 @@ border-bottom: 1px solid #ECECEC;
   fill: var(--accent-color);
   transition-timing-function: var(--timing-funtion);
   transition-duration: 250ms;
-  transition-property: color var(--accent-color);
+  transition-property: color ;
 }
 .header-adres:hover svg {
   fill: var(--accent-color);
   transition-timing-function: var(--timing-funtion);
   transition-duration: 250ms;
-  transition-property: color var(--accent-color);
+  transition-property: fill ;
 }
 .header-adres:focus svg {
   fill: var(--accent-color);
   transition-timing-function: var(--timing-funtion);
   transition-duration: 250ms;
-  transition-property: color var(--accent-color);
+  transition-property: fill ;
 }
 .container-flax,
 .header-nav,
@@ -143,13 +158,13 @@ border-bottom: 1px solid #ECECEC;
   fill: var(--accent-color);
   transition-timing-function: var(--timing-funtion);
   transition-duration: 250ms;
-  transition-property: color var(--accent-color);
+  transition-property: fill ;
 }
 .header-tel:focus svg {
   fill: var(--accent-color);
   transition-timing-function: var(--timing-funtion);
   transition-duration: 250ms;
-  transition-property: color var(--accent-color);
+  transition-property: fill ;
 }
 .header-item:first-child{
   margin-left: 0;
@@ -248,7 +263,7 @@ border-bottom: 1px solid #ECECEC;
   display: block;
   transition-timing-function: var(--timing-funtion);
   transition-duration: 250ms;
-  transition-property: color var(--accent-color);
+  transition-property: color ;
   
   
   
@@ -261,7 +276,7 @@ border-bottom: 1px solid #ECECEC;
   position: relative;
 transition-timing-function: var(--timing-funtion);
 transition-duration: 250ms;
-transition-property: color var(--accent-color);
+transition-property: color ;
 }
 .header-link:hover,
 .header-link:focus,
@@ -270,7 +285,7 @@ transition-property: color var(--accent-color);
   color: var(--accent-color);
   transition-timing-function: var(--timing-funtion);
   transition-duration: 250ms;
-  transition-property: color var(--accent-color);
+  transition-property: color ;
 }
 .header-tel, .header-adres {
   font-weight: 500;
@@ -283,7 +298,7 @@ transition-property: color var(--accent-color);
   justify-content: center;
 transition-timing-function: var(--timing-funtion);
 transition-duration: 250ms;
-transition-property: color var(--accent-color);
+transition-property: color;
 }
 
 .header-adres:hover,
@@ -291,7 +306,7 @@ transition-property: color var(--accent-color);
   color: var(--accent-color);
   transition-timing-function: var(--timing-funtion);
   transition-duration: 250ms;
-  transition-property: color var(--accent-color);
+  transition-property: color ;
   
   
 }
@@ -301,7 +316,7 @@ transition-property: color var(--accent-color);
   color: var(--accent-color);
   transition-timing-function: var(--timing-funtion);
   transition-duration: 250ms;
-  transition-property: color var(--accent-color);
+  transition-property: color ;
 
 }
                                                             /* HERO */
@@ -557,6 +572,9 @@ padding: 94px 0px;
 }
 .command-item-soc{
   margin-right: 10px;
+  transition-timing-function: var(--timing-funtion);
+  transition-duration: 250ms;
+  transition-property: fill;
 
 }
 .command-soc-link:hover,
@@ -564,21 +582,21 @@ padding: 94px 0px;
   background-color: var(--accent-color);
   transition-timing-function: var(--timing-funtion);
   transition-duration: 250ms;
-  transition-property: color var(--accent-color);
+  transition-property: background-color;
   
 }
 .command-soc-link:hover .command-soc-icon{
   fill: #ffffff;
   transition-timing-function: var(--timing-funtion);
   transition-duration: 250ms;
-  transition-property: color var(--accent-color);
+  transition-property: fill ;
  
 }
 .command-soc-link:focus .command-soc-icon {
   fill: #ffffff;
   transition-timing-function: var(--timing-funtion);
   transition-duration: 250ms;
-  transition-property: color var(--accent-color);
+  transition-property: fill ;
   
 }
 
@@ -586,7 +604,7 @@ padding: 94px 0px;
   margin-right: 0;
   transition-timing-function: var(--timing-funtion);
   transition-duration: 250ms;
-  transition-property: color var(--accent-color);
+  transition-property: fill ;
 }
 .command-soc-link{
   width: 44px;
@@ -597,14 +615,14 @@ padding: 94px 0px;
   justify-content: center;
   transition-timing-function: var(--timing-funtion);
   transition-duration: 250ms;
-  transition-property: color var(--accent-color);
+  transition-property: background-color;
 }
 
 .command-soc-icon{
   fill: #AFB1B8;
   transition-timing-function: var(--timing-funtion);
   transition-duration: 250ms;
-  transition-property: color var(--accent-color);
+  transition-property: fill ;
 }
 
 
@@ -612,6 +630,7 @@ padding: 94px 0px;
 .command-soc-list{
   display: flex;
   justify-content: center;
+  
 }
 .command-list{
   display: flex;
@@ -723,7 +742,7 @@ padding-bottom: 60px;
   color: var(--first-btn-color);
   transition-timing-function: var(--timing-funtion);
   transition-duration: 250ms;
-  transition-property: color var(--accent-color);
+  transition-property: color ;
   
 
 }
@@ -735,7 +754,7 @@ letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 transition-timing-function: var(--timing-funtion);
 transition-duration: 250ms;
-transition-property: color var(--accent-color);
+transition-property: color ;
 
 }
 .footer-link:hover,
@@ -743,21 +762,21 @@ transition-property: color var(--accent-color);
   color: var(--accent-color);
   transition-timing-function: var(--timing-funtion);
   transition-duration: 250ms;
-  transition-property: color var(--accent-color);
+  transition-property: color ;
 }
 .footer-tel:hover,
 .footer-tel:focus{
   color: var(--accent-color);
   transition-timing-function: var(--timing-funtion);
   transition-duration: 250ms;
-  transition-property: color var(--accent-color);
+  transition-property: color ;
 }
 .footer-adres:hover,
 .footer-adres:focus{
   color: var(--accent-color);
 transition-timing-function: var(--timing-funtion);
 transition-duration: 250ms;
-transition-property: color var(--accent-color);
+transition-property: color ;
 }
 .footer-text{
   font-weight: 700;
@@ -778,25 +797,25 @@ transition-property: color var(--accent-color);
   background: rgba(255, 255, 255, 0.1);
   transition-timing-function: var(--timing-funtion);
   transition-duration: 250ms;
-  transition-property: color var(--accent-color);
+  transition-property: background ;
 }
 .footer-soc-link{
   fill: var(--first-btn-color);
   transition-timing-function: var(--timing-funtion);
   transition-duration: 250ms;
-  transition-property: color var(--accent-color);
+  transition-property: background ;
 }
 .footer-soc-link:hover{
   background-color:var(--accent-color);
   transition-timing-function: var(--timing-funtion);
   transition-duration: 250ms;
-  transition-property: color var(--accent-color);
+  transition-property: background-color ;
 }
 .footer-soc-link:focus {
   background-color: var(--accent-color);
   transition-timing-function: var(--timing-funtion);
   transition-duration: 250ms;
-  transition-property: color var(--accent-color);
+  transition-property: background-color ;
 }
 
 .footer-item-soc{
@@ -872,14 +891,14 @@ transition-property: color var(--accent-color);
   box-sizing: border-box;
   transition-timing-function: var(--timing-funtion);
   transition-duration: 250ms;
-  transition-property: color var(--accent-color);
+  transition-property:fill,border ;
 }
 .customer-soc-icon{
 
   fill: #AFB1B8;
 transition-timing-function: var(--timing-funtion);
 transition-duration: 250ms;
-transition-property: color var(--accent-color);
+transition-property: fill ;
 }
 
 
@@ -890,14 +909,14 @@ transition-property: color var(--accent-color);
   fill: var(--accent-color);
   transition-timing-function: var(--timing-funtion);
   transition-duration: 250ms;
-  transition-property: color var(--accent-color);
+  transition-property: fill ;
  
 }
 .customer-soc-link:focus svg{
  fill: var(--accent-color);
 transition-timing-function: var(--timing-funtion);
 transition-duration: 250ms;
-transition-property: color var(--accent-color);
+transition-property: color ;
 
   
 }
@@ -906,14 +925,14 @@ transition-property: color var(--accent-color);
   border-color:var(--accent-color);
   transition-timing-function: var(--timing-funtion);
   transition-duration: 250ms;
-  transition-property: color var(--accent-color);
+  transition-property: color ;
   
 }
 .customer-soc-link:hover {
   border-color: var(--accent-color);
   transition-timing-function: var(--timing-funtion);
   transition-duration: 250ms;
-  transition-property: color var(--accent-color);
+  transition-property: color ;
 }
 
 
@@ -971,7 +990,7 @@ transition-property: color var(--accent-color);
   padding: 6px 22px;
   transition-timing-function: var(--timing-funtion);
   transition-duration: 250ms;
-  transition-property: color var(--accent-color),box-shadow;
+  transition-property: color ,box-shadow;
 }
 
 .hero1-btn:hover,
@@ -989,7 +1008,7 @@ transition-property: color var(--accent-color);
   0px 2px 2px rgba(0, 0, 0, 0.12);
   transition-timing-function: var(--timing-funtion);
   transition-duration: 250ms;
-  transition-property: color var(--accent-color), box-shadow;
+  transition-property: color , box-shadow;
 }
 
 
@@ -1051,11 +1070,11 @@ transition-property: color var(--accent-color);
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(33, 150, 243, 0.9);
+  background-color: rgba(33, 150, 243, 0.9);
   transform: translateY(101%);
     transition-timing-function: var(--timing-funtion);
     transition-duration: 250ms;
-    transition-property: background rgba(33, 150, 243, 0.9);
+    transition-property: background-color rgba(33, 150, 243, 0.9);
   
   
 }
@@ -1077,9 +1096,7 @@ transition-property: color var(--accent-color);
     text-decoration: none;
       transition-timing-function: var(--timing-funtion);
       transition-duration: 250ms;
-      transition-property: color var(--accent-color),box-shadow 0px 1px 1px rgba(0, 0, 0, 0.12),
-      0px 4px 4px rgba(0, 0, 0, 0.06),
-      1px 4px 6px rgba(0, 0, 0, 0.16);
+      transition-property: color, box-shadow;
     
 
 
@@ -1091,9 +1108,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
 1px 4px 6px rgba(0, 0, 0, 0.16);
   transition-timing-function: var(--timing-funtion);
   transition-duration: 250ms;
-  transition-property: color var(--accent-color), box-shadow 0px 1px 1px rgba(0, 0, 0, 0.12),
-  0px 4px 4px rgba(0, 0, 0, 0.06),
-  1px 4px 6px rgba(0, 0, 0, 0.16);
+  transition-property: color, box-shadow;
 
 
 }
