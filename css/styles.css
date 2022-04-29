@@ -1008,7 +1008,7 @@ transition-property: color ;
   0px 2px 2px rgba(0, 0, 0, 0.12);
   transition-timing-function: var(--timing-funtion);
   transition-duration: 250ms;
-  transition-property: color , box-shadow;
+  transition-property: color , box-shadow, background-color;
 }
 
 
